@@ -1,0 +1,76 @@
+body {
+	font-family:"宋体","Lucida Grande",Verdana,sans-serif;
+	font-size:14px;
+	color:#838383;
+	margin:0 auto;
+	width:100%;
+	min-width:960px;
+	height:100%;
+	background-color:#f5f5f5;
+}
+img{border:none}
+.header {
+	height:81px;
+	background:url("./topnav.jpg") no-repeat center;
+}
+.logo {
+	float:left;
+	height:64px;
+}
+.logo a {
+	display:block;
+	width:126px;
+	height:64px;
+}
+.wp {
+	margin:0 auto;
+	width:960px;
+}
+.topnav a {
+	float:right;
+	color:#FFFFFF;
+	display:block;
+	text-align:center;
+	font-size:16px;
+	text-decoration:none;
+	margin:20px 0px 20px 40px;
+}
+.topnav a:hover {
+	color:#ff544c;
+}
+.subtitle {
+	background:url("./arrows.jpg") no-repeat scroll left bottom;
+	font-size:20px;
+	margin-bottom:6px;
+	padding:40px 0 0px 18px;
+}
+hr {
+	height:1px;
+	border:none;
+	border-top:1px solid #bcbbb8;
+	margin:0 0 12px 0;
+	padding:0;
+}
+.container {
+	width:100%;
+	background-color:#FFFFFF;
+	padding-bottom:20px;
+}
+.footer {
+	height:100px;
+	line-height:12px;
+	padding:8px 0;
+	text-align:center;
+}
+#scrolltop {position: fixed; bottom: 0px; display: block; margin: -30px 0 0 2px; width: 40px; background: #f4f4f4; border: 1px #cdcdcd solid; border-radius: 3px; border-top: 0; cursor: pointer; right:0;}
+#scrolltop:hover { text-decoration: none; }
+.ie6 #scrolltop { position: absolute; bottom: auto; }
+/*#scrolltop a { display: block; width: 30px; height: 24px; padding: 3px 5px; line-height: 12px; text-align: center; color: #787878; text-decoration: none; background: url(./scrolltop.png) no-repeat 0 0; border-top: 1px #cdcdcd solid; }*/
+#scrolltop a { display: block; width: 30px; height: 24px; padding: 3px 5px; line-height: 12px; text-align: center; color: #787878; text-decoration: none; background: url(./scrolltop.png) no-repeat 0 0; border-top: 1px #cdcdcd solid; }
+a.scrolltopa:hover { background-position: -40px 0px !important;}
+a.replyfast { background-position: 0 -30px !important; }
+a.replyfast:hover { background-position: -40px -30px !important;}
+a.returnlist,a.returnboard { background-position: 0 -60px !important; }
+a.returnlist:hover,a.returnboard:hover { background-position: -40px -60px !important;}
+#scrolltop a b { visibility: hidden; font-weight: normal; }
+.links a,.footer a{color:#4e4e4e;margin:0 10px;}
