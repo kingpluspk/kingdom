@@ -1,0 +1,16 @@
+.index-swiper{width:100%;margin-top:100px;}
+
+.order-index{width: 70%;margin: 40px 15%;}
+.order-index .order-up{width: 100%;background-color: #FFF;padding: 15px;box-sizing: border-box;}
+.order-index .order-up .up-top{width: 100%;}
+.order-index .order-up .up-top .top-left{width: 40%;float: left;}
+.order-index .order-up .up-top .top-right{width: 60%;float: left;padding-left: 15px;box-sizing: border-box;margin-top: 20px;}
+.order-index .order-up .up-top .top-right .title{font-size: 35px;color: #333;font-weight: bold;margin-bottom: 20px;}
+.order-index .order-up .up-top .top-right .tip{font-size: 14px;color: #828282;line-height: 25px;}
+.order-index .order-up .up-bottom{width: 100%;padding: 15px 15px 50px;box-sizing: border-box;}
+.order-index .order-down{width:100%;margin-top: 40px;}
+.order-index .order-down .list{width:32%;float:left;background-color:#FFF;}
+.order-index .order-down .list:nth-of-type(2){margin:0 2%;background-color:#FFF;}
+.order-index .order-down .list img{width:100%;}
+.order-index .order-down .list .list-title{width:100%;padding:20px 15px 10px;box-sizing:border-box;font-size:20px;color:#333333;}
+.order-index .order-down .list .list-tip{width:100%;font-size:12px;color:#666666;padding: 0 15px 20px;box-sizing:border-box;line-height: 20px;}

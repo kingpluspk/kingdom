@@ -1,0 +1,9 @@
+.index-swerper{width:100%;margin-top: 100px;}
+
+.about-index{width: 70%;margin: 50px 15%;}
+.about-index .about-up{width: 100%;background-color: #FFF;padding: 40px 30px 50px;box-sizing: border-box;}
+.about-index .about-up .title{width: 100%;font-size: 24px;color: #333;font-weight: bold;margin-bottom: 20px;text-align: center;}
+.about-index .about-up .tip{width: 100%;font-size: 14px;color: #666;line-height: 25px;}
+.about-index .about-down{width: 100%;margin-top: 20px;}
+.about-index .about-down img{width: 49%;float: left;}
+.about-index .about-down img:nth-of-type(2){margin-left: 2%;}

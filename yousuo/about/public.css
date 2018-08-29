@@ -1,0 +1,53 @@
+﻿body,div,ul,li,ol,dl,dt,p,dd,img,input,a,span,h1,h2,h3,h4,figure,video,button,form{padding:0; margin:0; border:0; list-style:none;}
+body{ color:#3e3e3e;  margin: 0 auto;width:100%; max-width: 1920px; font-family:"微软雅黑"; font-weight:lighter; background:#edeae8;}
+a{ text-decoration:none; color:#3e3e3e;-webkit-tap-highlight-color: transparent;-webkit-touch-callout: none;-webkit-user-select: none;}
+a:hover{ text-decoration: none;}
+.clearfix:after { content: "΢微软雅黑"; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { display: inline-table; }
+*html .clearfix { height: 1%; }
+.clearfix { display: block; }
+*+html .clearfix { min-height: 1%; }
+img { width: 100%; height: auto; display: block;}
+.circle{border-radius: 50%;-webkit-border-radius:50%;-moz-border-radius:50%;}
+button{width: 100%;outline:none;}
+button img{width: 100%;}
+
+/*头部*/
+.index-header{width:100%;padding: 20px 15%;box-sizing: border-box;position: fixed;top: 0;border:1px solid #ddd;height: 100px;background-color: #FFF;z-index: 1000;}
+.index-header .header-left{width: 20%;float: left;font-size: 50px;height: 60px;line-height: 60px;font-weight:bold;font-style:italic;}
+.index-header .header-right{width: 80%;float: left;height: 60px;line-height: 60px;}
+.index-header .header-right ul{width: 100%;}
+.index-header .header-right ul li{width: 13%;font-size: 16px;color: #333;float: left;text-align: center;}
+.index-header .header-right ul li:nth-of-type(6),.index-header .header-right ul li:nth-of-type(7){width:13%;}
+.index-header .header-right ul li:nth-of-type(8){width: 18%;}
+.index-header .header-right ul .active a{color: #41c6d1;}
+
+/*尾部*/
+.index-footer{width: 100%;font-size:12px;color:#fff;box-sizing: border-box;position: relative;}
+.index-footer .footer-bg{width: 100%;position: absolute;z-index: 0;}
+.index-footer .footer-conter{width: 70%;margin: 31px 15% 0;position: absolute;z-index: 1;}
+.index-footer .footer-conter .footer-left{width: 30%;float: left;}
+.index-footer .footer-conter .footer-left .left-list{width: 100%;}
+.index-footer .footer-conter .footer-left .left-list ul{width: 90%;margin-bottom: 30px;}
+.index-footer .footer-conter .footer-left .left-list ul li{width: 33.333%;text-align: left;float: left;}
+.index-footer .footer-conter .footer-left .left-list ul li:nth-of-type(4),
+.index-footer .footer-conter .footer-left .left-list ul li:nth-of-type(5),
+.index-footer .footer-conter .footer-left .left-list ul li:nth-of-type(6){margin-top: 10px;}
+.index-footer .footer-conter .footer-left .left-list img{width: 7%;margin-right: 10px;float: left;margin-bottom: 15px;}
+.index-footer .footer-conter .footer-left .left-list .footer-tip{width: 100%;}
+.index-footer .footer-conter .footer-con{width: 40%;float: left;}
+.index-footer .footer-conter .footer-con .footer-side{width: 3px;float: left;}
+.index-footer .footer-conter .footer-con .con-tip{width: 98%;padding: 0 5%;box-sizing: border-box;float: left;}
+.index-footer .footer-conter .footer-con .con-tip p{margin-bottom: 10px;}
+.index-footer .footer-conter .footer-right{width: 30%;float: left;}
+.index-footer .footer-conter .footer-right .code{width: 40%;float: left;margin: 0 3% 0 7%;}
+.index-footer .footer-conter .footer-right .right-tip{width: 50%;padding-top: 25px;float: left;}
+.index-footer .footer-conter .footer-right .right-tip p:nth-of-type(1){margin-bottom: 10px;}
+
+
+.tcdPageCode{padding: 15px 0;text-align: left;color: #ccc;text-align:center;width: 50%;margin: 0 25%;background-color: #f2f2f2;border-radius: 20px;}
+.tcdPageCode a{display: inline-block;color: #a9a9a9;width:37px;display: inline-block;height: 37px;	line-height: 37px;margin: 0 2px;vertical-align: middle;}
+.tcdPageCode a:hover{text-decoration: none;}
+.tcdPageCode span.current{display: inline-block;width:37px;height: 37px;line-height: 37px;background:url(../img/news-bg.png) no-repeat;margin: 0 2px;color: #fff;vertical-align: middle;}
+.tcdPageCode span.disabled{	display: inline-block;width:70px;height: 37px;line-height:37px;padding: 0 10px;margin: 0 2px;color: #bfbfbf;background: #f2f2f2;vertical-align: middle;}
+.tcdPageCode .prevPage,.tcdPageCode .nextPage{width: 70px;}
