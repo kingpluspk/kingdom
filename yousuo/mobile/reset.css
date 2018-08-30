@@ -1,0 +1,75 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+*:not(input,textarea) {
+    -webkit-touch-callout: inherit;
+    -webkit-user-select: auto;
+}
+
+html, body {
+    width: 100%;
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    font-size: 14px;
+    color: #878787;
+    height: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-touch-callout: inherit;
+    -webkit-user-select: auto;
+    background-color: #fff;
+}
+
+a {
+    color: #878787;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+dt, dd {
+    display: inline-block;
+}
+
+textarea, input {
+    resize: none;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    -webkit-appearance: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+em {
+    font-style: normal;
+}
+
+img {
+    border: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+p {
+    word-wrap: break-word
+}

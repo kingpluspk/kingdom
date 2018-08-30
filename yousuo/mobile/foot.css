@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/*底部*/
+.foot {
+    display: inline-block;
+    font-size: 22px;
+    color: #5c6671;
+    width: 100%;
+    text-align: center;
+    background-color: #2d3237;
+}
+
+.footlogo {
+    margin: 0px auto;
+    width: 147px;
+    height: 42px;
+}
+
+.footlogo img {
+    width: 147px;
+    height: 42px;
+}
+
+.foot p {
+    margin: 0 20px;
+    font-size: 22px;
+    text-align: center;
+    color: #5c6671;
+    line-height: 36px;
+}
+
+.tel {
+    padding: 10px 20px;
+    display: inline-block;
+    border: 2px solid #5c6671;
+}
+/*底部 end*/
